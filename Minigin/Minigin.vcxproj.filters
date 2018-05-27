@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine Files\Main">
+      <UniqueIdentifier>{165d7cd0-b64f-48fc-b529-0e80a87ca49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\SceneGraph">
+      <UniqueIdentifier>{5a75b484-5b8d-4de0-89fa-511b72e98dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Components">
+      <UniqueIdentifier>{261c34b9-e87f-4167-b6b7-565746febf76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Graphics">
+      <UniqueIdentifier>{d9d97ded-c60d-4ad5-a74f-dbf1e4eee878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Managers">
+      <UniqueIdentifier>{4b994d5e-49a7-4b15-bf6d-8d1052e378c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files\Helpers">
+      <UniqueIdentifier>{d6bd39a3-04b2-4523-8c8a-c1793a5923b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Scripts">
+      <UniqueIdentifier>{59d4a137-3c59-47d1-8e11-1a802af37a8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Log.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniginPCH.h">
+      <Filter>Engine Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Engine Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Engine Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Engine Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Engine Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Engine Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Engine Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Engine Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Engine Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Engine Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>Engine Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Engine Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Engine Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComponent.h">
+      <Filter>Engine Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Engine Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Engine Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Engine Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Game Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSDisplay.h">
+      <Filter>Game Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadComponent.h">
+      <Filter>Engine Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>Engine Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PacMan.h">
+      <Filter>Game Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Game Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpPill.h">
+      <Filter>Game Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Lives.h">
+      <Filter>Game Files\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGhost.h">
+      <Filter>Game Files\Scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Log.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Minigin.cpp">
+      <Filter>Engine Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniginPCH.cpp">
+      <Filter>Engine Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Engine Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Engine Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Engine Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Engine Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>Engine Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Engine Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Engine Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Engine Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionComponent.cpp">
+      <Filter>Engine Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Engine Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Engine Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Engine Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Engine Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Game Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSDisplay.cpp">
+      <Filter>Game Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadComponent.cpp">
+      <Filter>Engine Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Engine Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PacMan.cpp">
+      <Filter>Game Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Game Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpPill.cpp">
+      <Filter>Game Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Lives.cpp">
+      <Filter>Game Files\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGhost.cpp">
+      <Filter>Game Files\Scripts</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
